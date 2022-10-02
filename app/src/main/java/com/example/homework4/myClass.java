@@ -4,8 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class myClass {
     public static void main(String[] args){
-        System.out.print("HomeWork4");
+       int number =8741323 ;
+       int model = 10;
+       int weight = 1;
     }
     }
+
