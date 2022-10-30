@@ -24,6 +24,7 @@ public class MyClass {
         list.add(new Adult("Marry" ,22,168));
         list.add(new Adult("Tod" ,24,184));
 //стримы позже доделаю,бдуду разбираться
+        
         Stream stream = list.stream();
         stream.filter(x -> x.toString().length() ==3).forEach(System.out::println);
         list.stream().forEach(x -> System.out.println(x.toString()));
